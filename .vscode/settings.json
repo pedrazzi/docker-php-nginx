@@ -1,0 +1,66 @@
+{
+  "search.exclude": {
+    "**/.git": true,
+    "**/vendor": true,
+    "**/.vscode": true,
+    "**/.config": true
+  },
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/vendor": true,
+    "**/.config": true,
+    "composer.lock": true,
+    ".dockerignore": true,
+    "docker-compose.*": true,
+    ".gitignore": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "eslint.options": {},
+  "eslint.validate": ["vue", "sass", "javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
+  "files.autoSave": "onFocusChange",
+  "prettier.trailingComma": "none",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "editor.tabCompletion": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 2,
+  "eslint.codeActionsOnSave.rules": null,
+  "php.validate.executablePath": "/wsl$/Ubuntu-20.04/home/pedrazzi/projetos/eds/ci4-vuejs/.config/docker-compose/php/php.sh",
+  "php.suggest.basic": false,
+  "php.validate.run": "onSave",
+  "php.validate.enable": true,
+  "php-docblocker.author": {
+    "name": "Fábio Pedrazzi",
+    "email": "pedrazzi@hotmail.com"
+  },
+  "php-docblocker.extra": [
+    "@author Fábio Pedrazzi <pedrazzi@hotmail.com>",
+    "@date $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR"
+  ],
+  "php-docblocker.qualifyClassNames": true,
+  "php-docblocker.returnGap": true,
+  "php-docblocker.returnVoid": false,
+  "php-docblocker.useShortNames": true
+}

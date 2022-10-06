@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "octref.vetur",
+    "adereksisusanto.codeigniter4-snippets",
+    "neilbrayfield.php-docblocker",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
