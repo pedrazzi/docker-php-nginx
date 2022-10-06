@@ -1,0 +1,30 @@
+{
+  "name": "pedrazzi/ibge-api",
+  "description": "API IBGE em php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fábio Pedrazzi",
+      "email": "pedrazzi@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "php"
+  ],
+  "require": {
+    "php": "^7.4.3 || ^8.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Ibge": "src/"
+    },
+    "psr-4": {
+      "Pedrazzi\\Ibge\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
